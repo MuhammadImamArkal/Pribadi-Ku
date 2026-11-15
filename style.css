@@ -1,0 +1,103 @@
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+body {
+    background-color: #180e46;
+}
+
+.latarPersegi {
+    background: linear-gradient(to right, rgba(175, 223, 121, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 5px; /* Jarak antara teks dan tepi kotak */
+}
+
+h1 {
+    line-height: 0.8;
+}
+
+.h1-atas {
+    font-family: Arial, Helvetica, Verdana; /*Jika pada perangkat user tidak tersedia font yang satu, maka kedua pilihan siap menjadi cadangan*/
+    font-size: 36px;
+    font-weight: 900; /*700 untuk Bold standar atau bisa juga 'Bold', maks. 900*/
+    font-style: Italic;
+    color: #FFFFFF;
+}
+
+.h1-bawah {
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: Italic;
+    color: #303331;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: Bold;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: Bold;
+    font-style: italic;
+    color: #FFFFFF;
+}
+
+.form-bbm { /*pemanggilan berdasar class harus diawali titik "."*/
+  width: 100%;
+  line-height: 0.4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #000000;
+  max-width: 500px;
+  margin-left: 0;
+  padding: 20px;
+  background-color: #b7eb7c;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Membuat sudut form menjadi tumpul */
+  box-shadow: 0 4px 6px rgb(255, 255, 255);
+}
+
+.harga-liter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    color: #d41e1e;
+}
+
+.liter-dapat {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    color: #852525;
+}
+
+.watermark-bawah {
+    line-height: 0;
+    font-family: Arial, Helvetica, Verdana; 
+    font-size: 90px;
+    font-weight: 900;
+    font-style: Italic;
+    color: #ffffff1a;
+    position: fixed;
+    bottom: 0px;
+    right: 250px;
+}
+
+.logo-fiks {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width:250px;
+    height: 250px;
+    z-index: 999;
+    opacity: 0.3;
+}

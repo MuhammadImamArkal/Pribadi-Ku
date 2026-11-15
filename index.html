@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FossilChem</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="latarPersegi">
+        <h1>
+            <span class="h1-atas">FOSSILChem</span><img src="dino.png" alt="logo" class="logo">
+        <br><span class="h1-bawah">Selalu jadi andalan Kamu yang Berkendara</span>
+        </h1>
+        </div>
+
+        <h2>
+            Selamat datang di web FOSSILChem
+            <br>Sekarang Kamu bisa simulasi perhitungan BBM Kamu disini!
+        </h2>
+
+        <h3>
+            Pertama, pilih dahulu jenis bahan bakar Kamu
+            <br>Kemudian, Isi nominal yang Kamu Inginkan!
+        </h3>
+
+        <form class="form-bbm">
+
+            <label for="jenisBBM">Pilih Jenis Bahan Bakar Anda :</label>
+            <select id="jenisBBM" name="jenisBBM">
+                <option value="" data-price="0">Pilih jenis BBM</option>
+                <option value="bbmA" data-price="12000">FOSMikro - Rp. 12.000</option>
+                <option value="bbmB" data-price="16000">FOSMakro - Rp. 16.000</option>
+                <option value="bbmC" data-price="6500">FOSDiesel - Rp. 6.500</option>
+            </select>
+
+            <p class="harga-liter">Harga per liter : <span id="harga-jenisBBM">Rp 0</span></p>
+
+            <label for="nominal">Masukkan nominal pengisian BBM Anda :</label>
+            <input type="number" id="nominal" name="nominal" min="5000" max="1000000" step="500">
+
+            <p class="liter-dapat">Kamu dapat mengisi sebanyak : <span id="jumlahLiter">0 </span>Liter</p>
+
+        </form>
+
+        <p class="watermark-bawah">FOSSILChem</p><img src="dino.png" class="logo-fiks" alt="logo-fiks">
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
